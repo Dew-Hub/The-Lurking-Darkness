@@ -1022,12 +1022,12 @@ PrefabInstance:
     - target: {fileID: 8675915457954794083, guid: 3fc537e92bf3d2449b5be72cfd6cb447,
         type: 3}
       propertyPath: velocity.x
-      value: 0.39503947
+      value: -0.3888596
       objectReference: {fileID: 0}
     - target: {fileID: 8675915457954794083, guid: 3fc537e92bf3d2449b5be72cfd6cb447,
         type: 3}
       propertyPath: velocity.z
-      value: 0.69545346
+      value: -0.4053161
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3fc537e92bf3d2449b5be72cfd6cb447, type: 3}
