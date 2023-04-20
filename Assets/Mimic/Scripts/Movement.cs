@@ -20,10 +20,11 @@ namespace MimicSpace
         Mimic myMimic;
         private Transform playerTransform;
         public float hiz = 5.0f;
+        public GameObject Player;
 
         private void Start()
         {
-            playerTransform = GameObject.Find("Man_03").transform;
+            playerTransform = Player.transform;
             myMimic = GetComponent<Mimic>();
         }
 
