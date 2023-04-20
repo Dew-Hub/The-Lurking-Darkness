@@ -19,11 +19,11 @@ namespace MimicSpace
         public float velocityLerpCoef = 4f;
         Mimic myMimic;
         private Transform playerTransform;
-        public float hiz = 5.0f;
+        public GameObject playerPos;
 
         private void Start()
         {
-            playerTransform = GameObject.Find("Man_03").transform;
+            playerTransform = playerPos.transform;
             myMimic = GetComponent<Mimic>();
         }
 
