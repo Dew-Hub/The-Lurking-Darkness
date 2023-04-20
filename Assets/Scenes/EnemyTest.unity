@@ -1022,12 +1022,12 @@ PrefabInstance:
     - target: {fileID: 8675915457954794083, guid: 3fc537e92bf3d2449b5be72cfd6cb447,
         type: 3}
       propertyPath: velocity.x
-      value: -0.3888596
+      value: -0.40719432
       objectReference: {fileID: 0}
     - target: {fileID: 8675915457954794083, guid: 3fc537e92bf3d2449b5be72cfd6cb447,
         type: 3}
       propertyPath: velocity.z
-      value: -0.4053161
+      value: 0.8884609
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3fc537e92bf3d2449b5be72cfd6cb447, type: 3}
@@ -1221,7 +1221,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cb18e139c62394248bf39ad0f8f24bc1, type: 2}
+  - {fileID: 3514935808808263199, guid: b8a7488d12adc39498433d60811eab1a, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
