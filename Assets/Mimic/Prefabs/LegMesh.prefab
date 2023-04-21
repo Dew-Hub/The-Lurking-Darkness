@@ -188,7 +188,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2a0a8b654f1500b488f9ce609f4fb2b0, type: 2}
+  - {fileID: -9103484930961366303, guid: b8a7488d12adc39498433d60811eab1a, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -226,7 +226,6 @@ MonoBehaviour:
   footPosition: {x: 0, y: 0, z: 0}
   maxLegDistance: 0
   legResolution: 0
-  legObject: {fileID: 0}
   legLine: {fileID: 0}
   handlesCount: 8
   legMinHeight: 0.6
