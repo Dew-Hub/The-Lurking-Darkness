@@ -22,11 +22,11 @@ public class TargetManagment : MonoBehaviour
     {
         if (IsVisible(cam, target))
         {
-            mimicMovement.speed = 10f; // Hızlandırma
+            mimicMovement.speed = 5f; // Hızlandırma
         }
         else
         {
-            mimicMovement.speed = 4f; // Yavaşlatma
+            mimicMovement.speed = 2f; // Yavaşlatma
         }
     }
 }

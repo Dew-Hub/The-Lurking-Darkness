@@ -15,6 +15,7 @@ namespace MimicSpace
     public float velocityLerpCoef = 4f;
     Mimic myMimic;
     private Transform playerTransform;
+    public Transform head;
 
     [SerializeField]
     public Camera playerCamera; // PlayerCamera değişkeni
@@ -41,7 +42,9 @@ namespace MimicSpace
         {
             velocity = directionToPlayer.normalized * speed * 0.5f;
         }
-
+        float h = Input.GetAxis("Horizontal");
+        head.transform.rotation *= Quaternion.Euler(0, h * Time.deltaTime * 50, 0);
+        head.LookAt(playerTransform);
         // Assigning velocity to the mimic to assure great leg placement
         myMimic.velocity = velocity;
 
