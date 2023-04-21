@@ -11,6 +11,7 @@
 [Mm]emoryCaptures/
 [Aa]ssets/[Mm]ine/
 [Aa]ssets/[Aa]dventure_Character/
+[Aa]ssets/[Tt]rue_Horror_Creatures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
