@@ -13,6 +13,8 @@
 [Aa]ssets/[Aa]dventure_Character/
 [Aa]ssets/[Tt]rue_Horror_Creatures/
 [Aa]ssets/[Rr]usty Flashlight/
+[Aa]ssets/[Dd]I_Music/
+[Aa]ssets/Horror_Ambient_Sounds_Pack/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
