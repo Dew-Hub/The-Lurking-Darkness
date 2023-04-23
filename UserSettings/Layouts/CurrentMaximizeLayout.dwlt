@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 10944
+  controlID: 13578
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 10862
+  controlID: 13736
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 10863
+  controlID: 13737
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -230,9 +230,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 68810000
-      m_LastClickedID: 33128
-      m_ExpandedIDs: 505bffff5e5bfffffc75ffff0076ffff0e76ffff4696ffff0c97ffff82f0ffff06f1ffff0af1ffff0ef1ffff98f1ffff9cf1ffff8cf2ffffa8f2ffff30fbffff506f00003e8100006081000068810000
+      m_SelectedIDs: 32810000
+      m_LastClickedID: 33074
+      m_ExpandedIDs: 505bffff5e5bfffffc75ffff0076ffff0e76ffff4696ffff0c97ffff82f0ffff06f1ffff0af1ffff0ef1ffff98f1ffff9cf1ffff8cf2ffffa8f2ffff30fbffff506f00003e81000068810000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -566,9 +566,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -13.113293, y: -1.75649, z: -40.536583}
+    m_Target: {x: -10.417775, y: -0.6343181, z: -37.99267}
     speed: 2
-    m_Value: {x: -13.113293, y: -1.75649, z: -40.536583}
+    m_Value: {x: -10.417775, y: -0.6343181, z: -37.99267}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -615,9 +615,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.017253099, y: 0.97158396, z: -0.22243975, w: -0.079321995}
+    m_Target: {x: 0.020006344, y: 0.98018223, z: -0.15706368, w: 0.11928547}
     speed: 2
-    m_Value: {x: -0.017252717, y: 0.97156245, z: -0.22243482, w: -0.07932024}
+    m_Value: {x: 0.02000579, y: 0.9801551, z: -0.15705933, w: 0.11928217}
   m_Size:
     m_Target: 10
     speed: 2
@@ -788,7 +788,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -797,15 +797,15 @@ MonoBehaviour:
     y: 506
     width: 1316
     height: 441
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 13}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
   - {fileID: 13}
   - {fileID: 14}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -849,21 +849,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sound
+    - Assets/Mimic
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sound
+  - Assets/Mimic
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\burak\Documents\Desktop\UnitySSD\The-Lurking-Darkness
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1a810000
-    m_LastClickedID: 33050
+    m_SelectedIDs: 806b0000
+    m_LastClickedID: 27520
     m_ExpandedIDs: 000000009469000096690000986900009a6900009c6900009e690000a0690000a2690000a4690000a6690000a8690000aa690000ac69000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -917,8 +917,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 32810000
+    m_LastClickedInstanceID: 33074
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000806e00001a830000826e0000646500000a6c0000d07100000000000082ae0000
     m_RenameOverlay:
@@ -1035,7 +1035,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 10945
+  controlID: 13579
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1055,8 +1055,8 @@ MonoBehaviour:
     y: 0
     width: 604
     height: 551
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -1099,7 +1099,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 486
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
