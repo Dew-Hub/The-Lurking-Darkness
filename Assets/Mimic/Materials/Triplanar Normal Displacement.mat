@@ -116,7 +116,7 @@ Material:
     - _ZTest: 4
     - _ZWrite: 1
     - _ZWriteControl: 0
-    - _metallic: 0
+    - _metallic: 1
     - _smoothness: 0.727
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
